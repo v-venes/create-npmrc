@@ -1,0 +1,16 @@
+# action.yml
+name: 'Create .npmrc'
+description: 'Create .npmrc file'
+inputs:
+  org_name:
+    description: 'User or organization name'
+    required: true
+  auth_token:
+    description: 'Github AuthToken'
+    required: true
+  always_auth:
+    description: '.npmrc always_auth (Force npm to always require authentication when accessing the registry)'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
