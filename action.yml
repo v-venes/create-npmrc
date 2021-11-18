@@ -1,6 +1,9 @@
 # action.yml
 name: 'Create .npmrc'
 description: 'Create .npmrc file'
+branding:
+  icon: 'file'
+  color: 'red'
 inputs:
   org_name:
     description: 'User or organization name'
