@@ -21,7 +21,7 @@ Github action to create .npmrc file for Github Package Registry dependency
 ## Example usage
 
 ```yml
-uses: bikutadesu/create-npmrc@v1
+uses: bikutadesu/create-npmrc@v1.0.0
 with:
   org_name: EXAMPLE_ORG
   auth_token: GITHUB_TOKEN
