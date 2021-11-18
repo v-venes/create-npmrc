@@ -12,6 +12,8 @@ Github action to create .npmrc file for Github Package Registry dependency
 
 **Required** The Auth Token is responsible to able the download of the files of the repository, is highly recommended pass the token through a Github secret.
 
+<sub><sup>Secrets variables can be configured on repository settings > Secrets</sup></sub>
+
 ## `always_auth`
 
 **Required** Force npm to always require authentication when accessing the registry.
